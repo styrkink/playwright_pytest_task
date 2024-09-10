@@ -35,7 +35,7 @@ jobs:
 
       - name: Run tests with pytest
         run: |
-          pipenv run pytest --alluredir=./allure-results
+          pipenv run pytest --alluredir=allure-results
 
       - name: Allure Report action from marketplace
         uses: simple-elf/allure-report-action@master
